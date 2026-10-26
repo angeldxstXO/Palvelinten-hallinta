@@ -20,7 +20,7 @@ Tässä mielestäni UpCloud näyttää parhaalta vaihtoehdolta, ja se on suomala
 - ostamasi domain nimi löytyy palveluntarjoajan käyttäjäsivuiltasi
 
 
-# b) Debian 13 asennus VirtualBoxiin
+# a) Debian 13 asennus VirtualBoxiin
 
 Minulla on VirtualBox jo asennettu, koska käytimme sitä Linux-palvelimet kurssilla, joten käyn tässä läpi nyt vain Debian 13 asennuksen.
 
