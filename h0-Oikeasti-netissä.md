@@ -6,6 +6,7 @@ Tein tässä tehtävässä kaiken omalle virtuallikoneelleni!
 - valitse palvelimen tajoaja (UpCloud, DigitalOcean etc.)
 - valitse haluttavat asetukset, tärkeimmät näistä ovat: Sijainti, Palvelimen speksit, Käyttöjärjestelmä ja Kirjautumismenetelmä
 - yhteydenotto palvelimeen komennolla 'ssh root@[palveliment ip osoite]'
+
 Tässä mielestäni UpCloud näyttää parhaalta vaihtoehdolta, ja se on suomalainen
   
 ### Alkuvaiheita
