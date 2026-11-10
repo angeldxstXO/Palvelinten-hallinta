@@ -21,7 +21,7 @@
 
 ## Ansible-doc komennot
 
-** **ansible-doc copy:
+**ansible-doc copy:**
   - `ansible.builtin.copy` käytetään kopioimaan tiedosto tai hakemisto koneelta (local or remote) toiselle koneelle.
   - content: kirjoittaa sisällön suoraan tiedostoon
   - dest: polku johon tiedosto kopioidaan
@@ -30,7 +30,7 @@
   - EXAMPLE:\
     <img width="751" height="148" alt="image" src="https://github.com/user-attachments/assets/c4e39bde-041f-4fa8-84bb-978743767325" />
 
-** **ansible-doc apt:
+**ansible-doc apt:**
   - `ansible.builtin.apt` hallitsee APT paketteja
   - name: listaa pakettien nimet
   - state: valitsee paketin version esim. "latest" joka on uusin version
@@ -38,7 +38,7 @@
   -EXAMPLE:\
     <img width="334" height="64" alt="image" src="https://github.com/user-attachments/assets/f6550b96-f781-4342-960e-d249b4802334" />
 
-** **ansible-doc file:
+**ansible-doc file:**
   - `ansible.builtin.file` asettaa atribuutit tiedostoille, hakemistoille tai symlinkeille
   - path: käsiteltävän teidoston tai hakemiston polku
   - recurse: ottaa määritetyt asetukset käyttöön hakemistossa
@@ -48,7 +48,7 @@
   - EXAMPLE:\
     <img width="529" height="118" alt="image" src="https://github.com/user-attachments/assets/78067ea1-d6e7-4a1e-a748-66e26e1314ad" />
 
-** **ansible-doc user:
+**ansible-doc user:**
   - `ansible.builtin.user` hallitsee käyttäjiä ja niiden atribuutteja
   - name: nimi joka lisätään, poistetaan tai muokataan
   - create_home: luo kotihakemiston käyttäjälle
@@ -60,7 +60,7 @@
   - EXAMPLE:\
     <img width="526" height="82" alt="image" src="https://github.com/user-attachments/assets/b0970ea2-8068-4668-bf7d-0da0318e707a" />
 
-** **ansible-doc autorized_key:
+**ansible-doc autorized_key:**
   - `ansible.builtin.authorized_key` lisää tai poistaa SSH avaimen kyseiseltä käyttäjältä
   - user: käyttäjänimi jonka avaintiedostoja muokataan
   - key: näyttää julkiset SSH avaimet
