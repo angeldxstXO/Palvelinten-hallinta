@@ -74,7 +74,7 @@
   Tämän jälkeen tein uuden säännön joka antaa kaikille "sudoless" ryhmässä oleville sudo oikeudet ilman salasanaa.
   `sudo visudo /etc/sudoers.d/sudoless` luo uuden tiedoston johon laitetaan sääntö `%sudoless ALL = (ALL) PASSWD: ALL`
   Kirjautumalla uudelle käyttäjälle komennolla `ssh puolukka@localhosst` voimme testata toimiiko uusi sääntö vaikka echo komennolla:\
-  <img width="385" height="58" alt="image" src="https://github.com/user-attachments/assets/90ec78b8-0978-43de-8c01-9a2f74bb3107" />
+  <img width="385" height="58" alt="image" src="https://github.com/user-attachments/assets/90ec78b8-0978-43de-8c01-9a2f74bb3107" />\
   Ei kysy salasanaa, sudoless siis toimii.
 
 # b) Antero
@@ -107,7 +107,7 @@
 # d) File
 
   Tein filetest.yml tiedoston microlla `micro filetest.yml`:\
-  <img width="469" height="283" alt="image" src="https://github.com/user-attachments/assets/60b7856e-9063-45a4-854a-b5df50265ae6" />
+  <img width="469" height="283" alt="image" src="https://github.com/user-attachments/assets/60b7856e-9063-45a4-854a-b5df50265ae6" />\
   "0644" tarkoittaa symbolisessa muodossa "-rw-r--r--". Omistaja(root) voi lukea ja muokata tiedostoa, Ryhmä(root) ja muut käyttäjät voivat vain lukea tiedostoa.
 
 # e) Jotain muuta (Command)
