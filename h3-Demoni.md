@@ -52,8 +52,8 @@
 # c) Automoottorix
 **Poistetaan nginx ennen tämän tehtävän tekoa**
   Luodaan uusi hakemisto Nginxää varten `mkdir nginx`. Luodaan sinne inventory tiedosto `micro inventory.ini` ja sinne sisälle tekstit `[web] localhost ansible_connection=local`.\
-  Tehdään tämän jälkeen .yml tiedosto `micro nginx.yml` johon kirjoitetaan seuraavat tiedot:\ 
-  https://prnt.sc/yJdtmPRZ1BHt 
+  Tehdään tämän jälkeen .yml tiedosto `micro nginx.yml` johon kirjoitetaan seuraavat tiedot:  
+  https://prnt.sc/yJdtmPRZ1BHt  
   Sitten ajetaan kometo `ansible-playbook -i inventory.ini nginx.ynl --ask-become-pass` annetaan salasana ja sen jälkeen tulostuu seuraava:\
   https://prnt.sc/98uzszPKsXWq 
 
